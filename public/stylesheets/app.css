@@ -1,0 +1,41 @@
+#cluster-map {
+    width: 100%;
+    height: 500px;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border-radius: 20px; /* Mengatur rounded corners */
+    border: 1px solid #007bff; /* Mengatur border dan warna biru (#007bff) */
+    padding: 5px 10px; /* Mengatur padding untuk jarak antara border dengan teks input */
+    background-color: #212529; /* Mengatur warna latar belakang input menjadi hitam pekat (#212529) */
+    color: #fff; /* Mengatur warna teks input menjadi putih (#fff) */
+    transition: background-color 0.3s; /* Efek transisi saat perubahan warna */
+}
+
+.search-button {
+    border-radius: 20px; /* Mengatur rounded corners */
+    margin-left: -1px; /* Mengatur jarak antara input dan tombol */
+    background-color: #007bff; /* Mengatur warna latar belakang tombol menjadi biru (#007bff) */
+    color: #fff; /* Mengatur warna teks tombol menjadi putih (#fff) */
+    transition: background-color 0.3s; /* Efek transisi saat perubahan warna */
+}
+
+/* Mengatur warna ikon search menjadi putih (#fff) */
+.search-button i {
+    color: #fff;
+}
+
+/* Saat tombol dihover, ubah warna latar belakang tombol menjadi biru tua (#0056b3) */
+.search-button:hover {
+    background-color: #0056b3;
+}
